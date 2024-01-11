@@ -8,7 +8,6 @@ btn.addEventListener("click",()=>{
     
     if (taskValue.trim() !== "" && count<=maxCount) {
         let listItem = document.createElement("li");
-    
         listItem.textContent = taskValue;
 
         let removeButton = document.createElement("button");
