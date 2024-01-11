@@ -17,6 +17,7 @@ btn.addEventListener("click",()=>{
         removeButton.addEventListener("click", () => {
           list.removeChild(listItem);
           count--;
+          input.placeholder="Add Task";
           btn.disabled = false;
           input.disabled=false;
         });
